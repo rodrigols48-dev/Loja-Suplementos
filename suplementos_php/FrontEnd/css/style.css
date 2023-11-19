@@ -1,0 +1,206 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #a2531f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.jumbotron {
+    background-image: url('bread.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+#person {
+    margin-top: 8px;
+}
+
+.linha-vertical {
+    height: 42px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #afafaf;
+  }
+
+a { 
+    color: inherit; 
+  } 
+
+#login {
+    color: #fff;
+}
+img{ 
+    width: 100%;
+    max-width: 354px; 
+    transition: transform 0.3s;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0;
+    gap: 24px;
+    color: #000000;
+  }
+  
+  .footer-icons{
+    display: flex;
+    gap: 8px;
+    color: #000000;
+  }
+
+  .btn-whatsapp {
+    position: fixed;
+    bottom: 14px;
+    right: 24px;
+    z-index: 99;
+  }
+  .btn-whatsapp img {
+    max-width: 74px;
+    transition: transform 0.4s;
+  }
+  .btn-whatsapp img:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-whatsapp .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -144px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #242322;
+    color: #FFF;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+  
+  .btn-whatsapp:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .btn-whatsapp img {
+      max-width: 64px;
+    }
+  }
+
+  button {
+    font-family: "Sora", sans-serif;
+    cursor: pointer;
+  }
+  
+  svg {
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.services{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+  }
+  
+  .services-content h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 14px;
+  }
+  
+  .services-content p{
+    line-height: 150%;
+    margin-bottom: 14px;
+    text-align: center;
+    max-width: 780px;
+  }
+  
+  .haircuts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0 44px 34px 44px;
+  }
+  
+  .haircut{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.45);
+    overflow: hidden;
+  
+      img{
+        width: 100%;
+        max-width: 354px; 
+        transition: transform 0.2s;
+      }
+  }
+  
+  
+  .haircut img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  
+  .haircut-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: white;
+    z-index: 99;
+  }
+  
+  .haircut-info button{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border:0;
+    cursor: default;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .haircuts{
+      flex-direction: column;
+    }
+  
+    .haircut img{
+      max-width: 740px;
+    }
+  }
+
+
+.titulo0, .titulo1 {
+  font-weight: bold;
+}

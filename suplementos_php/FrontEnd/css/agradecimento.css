@@ -1,0 +1,66 @@
+body {
+    font-family:  sans-serif;
+    /* background-color: #38373a; */
+    background-image: url(../img/protein7.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+  }
+
+  #btn{
+      padding: 10px;
+      margin: 42px auto auto 93px;
+      border-radius: 10px;      
+    box-shadow: 1px 1px 7px black;
+
+
+  }
+  a{
+      color: white;
+  }
+  a:hover{
+     font-style: none;
+      color: antiquewhite;
+      text-decoration: none;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: rgba(161, 81, 15, 0.76);
+    border-color: #bbc1c7;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000000e8;
+    border-color: #1a1d20;
+    
+}
+
+  #content{
+    background: rgba(161, 81, 15, 0.76);
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-left: 13%;
+    /* margin-top: 6%; */
+    border-radius: 20px;
+    box-shadow: 8px 8px 19px black;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: center;
+}
+  
+  p{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  img{
+      width: 20%;
+  }
