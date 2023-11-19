@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 18-Nov-2023 às 16:05
+-- Tempo de geração: 19-Nov-2023 às 15:02
 -- Versão do servidor: 8.0.31
 -- versão do PHP: 8.0.26
 
@@ -77,6 +77,24 @@ INSERT INTO `suplementos` (`IDProduto`, `NomeProduto`, `Preco`, `Peso`, `TipoPes
 (5, 'CEASEA - GreenFusion (Suplemento à base de plantas)', 'R$ 80,00', '40.00', 3, 35),
 (6, 'CEASEA - NutriFlora (Suplemento à base de plantas)', 'R$ 50,00', '25.00', 3, 20),
 (7, 'CEASEA - CitrusVitality (Suplemento de frutas)', 'R$ 59,00', '35.00', 3, 50);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `usuarios`
+--
+
+DROP TABLE IF EXISTS `usuarios`;
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `IDUsuario` int NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(255) NOT NULL,
+  `Senha` varchar(255) NOT NULL,
+  `Celular` varchar(15) NOT NULL,
+  `Email` varchar(255) NOT NULL,
+  `DataNascimento` date NOT NULL,
+  `Administrador` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`IDUsuario`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
